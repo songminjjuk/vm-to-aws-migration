@@ -1,4 +1,4 @@
-# onpremise-to-aws-with-terraform
+# vm to aws migration
 on premise 3-tier 환경에서 AWS Cloud 환경으로 Migration을 하는데 Terraform을 활용하여 진행함
 migration 작업은 빈번하게 일어나는 작업이 아니므로 Terraform을 통하여 AWS 환경을 만드는 것을 자동화 할 필요는 굳이 없다고 생각하지만, 학습 차원에서 Terraform도 곁들여서 진행해보았다.
 Terraform code는 두 개의 폴더로 나누어진다. migration을 하기 전에 실행하는 code와 migration을 진행한 후에 실행하는 code가 있다.
